@@ -20,9 +20,6 @@ const (
 	LiveCell               // 1
 	ConvertedToDead        // 2
 	ConvertedToLive        // 3
-
-	m = 25
-	n = 25
 )
 
 var (
@@ -38,6 +35,8 @@ var (
 	}
 
 	board = [][]int{}
+	m = 25
+	n = 25
 )
 
 /*
